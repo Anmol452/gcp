@@ -1,0 +1,5 @@
+gcloud autu login
+gcloud config set project learning-gcp-ctb
+gcloud compute instances create learning-gcp-clilib --machine-type f1-micro
+gcloud compute instances describe learning-gcp-clilib
+
