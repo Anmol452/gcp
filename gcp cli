@@ -1,5 +1,5 @@
 gcloud auth login
 gcloud config set project <project id>
-gcloud compute instances create learning-gcp-clilib --machine-type f1-micro
+gcloud compute instances create <vm gcs name> --machine-type f1-micro --zone asia-east1-a
 gcloud compute instances describe learning-gcp-clilib
 
