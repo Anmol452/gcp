@@ -1,6 +1,14 @@
+1) storgae creat comand
+
+gsutil mb gs://learing-gcs-clilib
+
+______________________________________________________________
+2) create gsutil mb gs://learing-gcs-clilib 
+
 gcloud auth login
 gcloud config set project <project id>
 gcloud compute instances create <vm gcs name> --machine-type f1-micro --zone asia-east1-a
 gcloud compute instances list
 gcloud compute instances describe <vm gcs name> --zone <YOUR_ACTUAL_ZONE>
 
+ls = gsutil ls
